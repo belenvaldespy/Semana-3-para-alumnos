@@ -41,7 +41,7 @@ function calc() {
 function calcPostageForPurchase(sum) {
     if (sum == 0 || sum >= 3000) {
         return 0;
-    } else if (sum < 1000) {
+    } else if (sum < 2000) {
         return 500;
     } else {
         return 250;
